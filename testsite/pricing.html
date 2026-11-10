@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pricing - Fernleaf Outdoor Supply</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="index.html"><img src="img/logo.svg" alt="Fernleaf Outdoor Supply home" width="120" height="40"></a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="accessibility.html">Accessibility</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Pricing</h1>
+    <table id="price-table">
+      <caption>Tent rental prices</caption>
+      <tr><td><b>Tent</b></td><td><b>Per day</b></td><td><b>Per week</b></td></tr>
+      <tr><td>Two-person</td><td>&pound;12</td><td>&pound;60</td></tr>
+      <tr><td>Four-person</td><td>&pound;18</td><td>&pound;90</td></tr>
+    </table>
+    <p>
+      <button id="compare-btn" type="button">
+        <svg width="20" height="20" viewBox="0 0 20 20"><path d="M2 10h16M10 2v16" stroke="#1a1a1a" stroke-width="2"/></svg>
+      </button>
+      <span id="share-slot"></span>
+    </p>
+    <p><a id="team-link" href="about.html" aria-hidden="true">Meet the team who look after your gear</a></p>
+    <p><button id="faq-toggle" type="button" aria-expanded="yes" aria-controls="faq">Show rental questions</button></p>
+    <div id="faq" hidden>
+      <p>Tents are cleaned and checked between every rental.</p>
+    </div>
+    <div id="book-btn" role="button" class="cta">Book now</div>
+  </main>
+  <footer>
+    <p>&copy; 2026 Fernleaf Outdoor Supply, a fictional shop.
+      <a href="https://example.com">Partner site</a> &middot; <a href="private/secret.html">Staff area</a></p>
+  </footer>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.id = "share-btn";
+      button.className = "icon icon-share";
+      document.getElementById("share-slot").append(button);
+    });
+  </script>
+</body>
+</html>

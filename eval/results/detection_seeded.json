@@ -1,0 +1,390 @@
+{
+  "meta": {
+    "date": "2026-11-12",
+    "axe_version": "4.14.0",
+    "chromium": "158.0.8127.18",
+    "git": "8d86e7e"
+  },
+  "recall": {
+    "all": {
+      "found": 22,
+      "total": 33,
+      "rate": 0.667
+    },
+    "all_including_review": {
+      "found": 22,
+      "total": 33,
+      "rate": 0.667
+    },
+    "automatable": {
+      "found": 22,
+      "total": 24,
+      "rate": 0.917
+    },
+    "not_automatable": {
+      "found": 0,
+      "total": 9,
+      "rate": 0.0
+    },
+    "dev": {
+      "found": 9,
+      "total": 15,
+      "rate": 0.6
+    },
+    "heldout": {
+      "found": 13,
+      "total": 18,
+      "rate": 0.722
+    }
+  },
+  "rule_predictions_correct": {
+    "found": 22,
+    "total": 22,
+    "rate": 1.0
+  },
+  "unplanned_violations": [],
+  "unplanned_review_items": [],
+  "bugs": [
+    {
+      "id": "B01",
+      "page": "index.html",
+      "split": "dev",
+      "automatable": true,
+      "expected_axe_rule": "image-alt",
+      "status": "detected",
+      "rules": [
+        "image-alt"
+      ]
+    },
+    {
+      "id": "B02",
+      "page": "index.html",
+      "split": "dev",
+      "automatable": true,
+      "expected_axe_rule": "link-name",
+      "status": "detected",
+      "rules": [
+        "link-name"
+      ]
+    },
+    {
+      "id": "B03",
+      "page": "index.html",
+      "split": "dev",
+      "automatable": true,
+      "expected_axe_rule": "color-contrast",
+      "status": "detected",
+      "rules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "id": "B04",
+      "page": "index.html",
+      "split": "dev",
+      "automatable": true,
+      "expected_axe_rule": "heading-order",
+      "status": "detected",
+      "rules": [
+        "heading-order"
+      ]
+    },
+    {
+      "id": "B05",
+      "page": "index.html",
+      "split": "dev",
+      "automatable": false,
+      "expected_axe_rule": null,
+      "status": "missed",
+      "rules": []
+    },
+    {
+      "id": "B06",
+      "page": "contact.html",
+      "split": "dev",
+      "automatable": true,
+      "expected_axe_rule": "label",
+      "status": "detected",
+      "rules": [
+        "label"
+      ]
+    },
+    {
+      "id": "B07",
+      "page": "contact.html",
+      "split": "dev",
+      "automatable": true,
+      "expected_axe_rule": "select-name",
+      "status": "detected",
+      "rules": [
+        "select-name"
+      ]
+    },
+    {
+      "id": "B08",
+      "page": "contact.html",
+      "split": "dev",
+      "automatable": true,
+      "expected_axe_rule": "button-name",
+      "status": "detected",
+      "rules": [
+        "button-name"
+      ]
+    },
+    {
+      "id": "B09",
+      "page": "contact.html",
+      "split": "dev",
+      "automatable": true,
+      "expected_axe_rule": "autocomplete-valid",
+      "status": "detected",
+      "rules": [
+        "autocomplete-valid"
+      ]
+    },
+    {
+      "id": "B10",
+      "page": "contact.html",
+      "split": "dev",
+      "automatable": false,
+      "expected_axe_rule": null,
+      "status": "missed",
+      "rules": []
+    },
+    {
+      "id": "B11",
+      "page": "contact.html",
+      "split": "dev",
+      "automatable": false,
+      "expected_axe_rule": null,
+      "status": "missed",
+      "rules": []
+    },
+    {
+      "id": "B12",
+      "page": "gallery.html",
+      "split": "dev",
+      "automatable": false,
+      "expected_axe_rule": null,
+      "status": "missed",
+      "rules": []
+    },
+    {
+      "id": "B13",
+      "page": "gallery.html",
+      "split": "dev",
+      "automatable": true,
+      "expected_axe_rule": null,
+      "status": "missed",
+      "rules": []
+    },
+    {
+      "id": "B14",
+      "page": "gallery.html",
+      "split": "dev",
+      "automatable": false,
+      "expected_axe_rule": null,
+      "status": "missed",
+      "rules": []
+    },
+    {
+      "id": "B15",
+      "page": "gallery.html",
+      "split": "dev",
+      "automatable": true,
+      "expected_axe_rule": "frame-title",
+      "status": "detected",
+      "rules": [
+        "frame-title"
+      ]
+    },
+    {
+      "id": "B16",
+      "page": "blog.html",
+      "split": "heldout",
+      "automatable": true,
+      "expected_axe_rule": "image-alt",
+      "status": "detected",
+      "rules": [
+        "image-alt"
+      ]
+    },
+    {
+      "id": "B17",
+      "page": "blog.html",
+      "split": "heldout",
+      "automatable": true,
+      "expected_axe_rule": "html-has-lang",
+      "status": "detected",
+      "rules": [
+        "html-has-lang"
+      ]
+    },
+    {
+      "id": "B18",
+      "page": "blog.html",
+      "split": "heldout",
+      "automatable": true,
+      "expected_axe_rule": "link-name",
+      "status": "detected",
+      "rules": [
+        "link-name"
+      ]
+    },
+    {
+      "id": "B19",
+      "page": "blog.html",
+      "split": "heldout",
+      "automatable": true,
+      "expected_axe_rule": "color-contrast",
+      "status": "detected",
+      "rules": [
+        "color-contrast"
+      ]
+    },
+    {
+      "id": "B20",
+      "page": "about.html",
+      "split": "heldout",
+      "automatable": false,
+      "expected_axe_rule": null,
+      "status": "missed",
+      "rules": []
+    },
+    {
+      "id": "B21",
+      "page": "blog.html",
+      "split": "heldout",
+      "automatable": true,
+      "expected_axe_rule": "list",
+      "status": "detected",
+      "rules": [
+        "list"
+      ]
+    },
+    {
+      "id": "B22",
+      "page": "pricing.html",
+      "split": "heldout",
+      "automatable": false,
+      "expected_axe_rule": null,
+      "status": "missed",
+      "rules": []
+    },
+    {
+      "id": "B23",
+      "page": "pricing.html",
+      "split": "heldout",
+      "automatable": true,
+      "expected_axe_rule": "button-name",
+      "status": "detected",
+      "rules": [
+        "button-name"
+      ]
+    },
+    {
+      "id": "B24",
+      "page": "pricing.html",
+      "split": "heldout",
+      "automatable": true,
+      "expected_axe_rule": "aria-hidden-focus",
+      "status": "detected",
+      "rules": [
+        "aria-hidden-focus"
+      ]
+    },
+    {
+      "id": "B25",
+      "page": "pricing.html",
+      "split": "heldout",
+      "automatable": true,
+      "expected_axe_rule": "aria-valid-attr-value",
+      "status": "detected",
+      "rules": [
+        "aria-valid-attr-value"
+      ]
+    },
+    {
+      "id": "B26",
+      "page": "pricing.html",
+      "split": "heldout",
+      "automatable": true,
+      "expected_axe_rule": null,
+      "status": "missed",
+      "rules": []
+    },
+    {
+      "id": "B27",
+      "page": "about.html",
+      "split": "heldout",
+      "automatable": true,
+      "expected_axe_rule": "document-title",
+      "status": "detected",
+      "rules": [
+        "document-title"
+      ]
+    },
+    {
+      "id": "B28",
+      "page": "about.html",
+      "split": "heldout",
+      "automatable": true,
+      "expected_axe_rule": "input-image-alt",
+      "status": "detected",
+      "rules": [
+        "input-image-alt"
+      ]
+    },
+    {
+      "id": "B29",
+      "page": "about.html",
+      "split": "heldout",
+      "automatable": true,
+      "expected_axe_rule": "tabindex",
+      "status": "detected",
+      "rules": [
+        "tabindex"
+      ]
+    },
+    {
+      "id": "B30",
+      "page": "about.html",
+      "split": "heldout",
+      "automatable": false,
+      "expected_axe_rule": null,
+      "status": "missed",
+      "rules": []
+    },
+    {
+      "id": "B31",
+      "page": "about.html",
+      "split": "heldout",
+      "automatable": false,
+      "expected_axe_rule": null,
+      "status": "missed",
+      "rules": []
+    },
+    {
+      "id": "B32",
+      "page": "about.html",
+      "split": "heldout",
+      "automatable": true,
+      "expected_axe_rule": "empty-heading",
+      "status": "detected",
+      "rules": [
+        "empty-heading"
+      ]
+    },
+    {
+      "id": "B33",
+      "page": "pricing.html",
+      "split": "heldout",
+      "automatable": true,
+      "expected_axe_rule": "button-name",
+      "status": "detected",
+      "rules": [
+        "button-name"
+      ]
+    }
+  ]
+}

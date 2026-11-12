@@ -16,5 +16,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -e ".[dev]"
+      # Headless Chromium plus the Linux system libraries it needs, for the scanner tests.
+      - run: python -m playwright install --with-deps chromium
       - run: ruff check .
       - run: pytest -W error

@@ -121,7 +121,7 @@ def main() -> None:
     with serve() as site_url:
         result = evaluate(site_url)
     RESULTS.parent.mkdir(parents=True, exist_ok=True)
-    RESULTS.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
+    RESULTS.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8", newline="\n")
 
     print(f"axe {result['meta']['axe_version']} | Chromium {result['meta']['chromium']} | "
           f"git {result['meta']['git']}\n")
